@@ -1,0 +1,16 @@
+# ScholarOne API V5 Configuration
+api:
+  rate_limit_delay: 1.5
+  max_retries: 3
+
+export:
+  default_directory: ""
+
+logging:
+  level: INFO
+
+performance:
+  parallel_processing: false
+  max_workers: 3
+
+version: "5.0.0"
